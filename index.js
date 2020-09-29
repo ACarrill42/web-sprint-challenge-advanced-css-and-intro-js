@@ -234,8 +234,8 @@ console.log(artists[8]);
 function getArtistByIndex(array,index) {
     console.log('The artist at ' + array +' is ' + index)
   }
-  getArtistByIndex(artists.indexOf("name", 1),artists[0].name);
-  //fix, not done 100%!!!!!!!
+  getArtistByIndex([artists.length - 20],artists[0].name);
+ 
   
   /**
 
