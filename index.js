@@ -278,11 +278,23 @@ bio: Add 1-2 sentences (or use lorem ipsum)
 
 At the end, this function should return the new array with information added"*/
 
-function addArtist(/* Code here */){
-
-    /* Code here */
-
+const newArtists = [
+  {"id": 20,
+  "name": "Austin Carrill",
+  "years": "1994-present",
+  "genre": "Web",
+  "nationality": "American",
+  "bio": "lorem ipsum"
   }
+]
+
+function addArtist(newArt,current) {
+  current.push(newArt);
+
+  console.log(current);
+}
+
+addArtist(newArtists,artists);
 
 /* Task 7: Create a function called lotsOfArt() that takes one argument: 
 
