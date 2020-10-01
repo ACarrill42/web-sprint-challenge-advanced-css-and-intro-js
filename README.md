@@ -23,9 +23,21 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. How would you describe acessibility on the web to someone new to programming?
+
+Accessibility is the ability for any user, regardless of disbility, will be able to interact with the web page.
+
 2. Talk about 3 different things you can do to ensure your website is accessible. 
+
+Ensuring the layout is fluid, can resize easily; make sure the HTML is organized, and tagged symatically, so a screen reader can interpret it; and make sure to use colors that anyone can see easily.
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+A variable is a tag that, inherently has no value, but can be assigned any value by the developer.
+
 4. What is the purpose of using functions in code?
+
+The purpose of functions is to have the ability to have several small segements of code that are independent, and only run when summoned.
+
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
@@ -35,15 +47,15 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 Follow these steps to set up your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
 
 ### Task 2a:  Minimum Viable Product - Responsive Design
 
 *Before you jump in, take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built. During this time, [Review the provided design files](design/). You have been provided all content necessary in the [index.html file](index.html) and basic styling in the [index.css file](css/index.css).*
 
-* [ ] Add a viewport meta tag to the head of your index.html page.
+* [x] Add a viewport meta tag to the head of your index.html page.
 * [ ] Add responsive breakpoints to your code for 500px such that your styles match the [mobile design file](design/Mobile.png).
 
 ### Task 2b: Minimum Viable Product - JavaScript
